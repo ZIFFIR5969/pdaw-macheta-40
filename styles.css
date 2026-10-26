@@ -1,5 +1,5 @@
 body {
-   font-family: "Nunito Sans", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     max-width: 960px;
     margin: 0 auto;
 }
@@ -12,7 +12,7 @@ body {
     justify-content: space-between;
     color: #CBD5E1;
     padding: 1px 40px;
-    
+
 }
 
 
@@ -22,7 +22,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 40px;
-    
+
 }
 
 .nav-bottom ul {
@@ -35,25 +35,149 @@ body {
     top: 0;
 
 }
- .nav-bottom a{
+
+.nav-bottom a {
     text-decoration: none;
     color: #475569;
- }
+}
+.left-nav{
+     font-size: 30px;
+}
 .right-nav {
     gap: 30px;
 }
-  .nav-bottom a.active   {
-      color: #4D7C0F;
-      border-bottom: 2px solid #4D7C0F;
-  }
+
+.nav-bottom a.active {
+    color: #4D7C0F;
+    border-bottom: 2px solid #4D7C0F;
+}
+
 span.nav-title {
     color: #4D7C0F;
 }
 
-#btn{
+#btn {
     border: 1px solid #4D7C0F;
     background-color: #4D7C0F;
     border-radius: 50px;
     padding: 10px;
     color: white;
+}
+
+.hero {
+    background-color: #EEF5DF;
+    display: flex;
+    padding: 30px 35px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+
+.hero1 {
+    border: 1px solid white;
+    display: inline-flex;
+    background-color: white;
+    border-radius: 50px;
+    color: #4D7C0F;
+    padding: 5px 10px;
+
+}
+ .hero h1{
+    font-size: 45px;
+ }
+.hero h3 {
+    color: #475569;
+    font-size: 15px;
+}
+
+#heroh1 {
+    color: #4D7C0F;
+
+}
+
+.hero a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.btns-hero {
+    display: flex;
+    align-items: center;
+    gap: 15px
+}
+
+#btn-hero1 {
+    border: 2px solid #4D7C0F;
+    border-radius: 50px;
+    background-color: #4D7C0F;
+    color: white;
+
+    padding: 10px 10px;
+    justify-content: center;
+    display: flex;
+
+}
+
+#btna {
+    color: #4D7C0F;
+
+}
+
+#btn-hero2 {
+    border: 2px solid #4D7C0F;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 10px;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+.stats {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+
+
+}
+ .stats h2{
+    font-size: 30px;
+    margin: 0;
+    color: #172113;
+    font-family: "Quicksand", sans-serif;
+ }
+
+ .stats p {
+    
+    margin: 0;
+}
+.hero-image {
+    position: relative;
+    display: flex;
+    width: 43%;
+
+}
+
+.ceainic {
+    position: absolute;
+    top: 20em;
+    
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.ceanic1{
+    width: 20px;
+    
+    flex-shrink: 0
+    height: 1em;
+    background-color: #EEF5DF;
+    border-radius: 50px;
 }
