@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-top {
+    background-color: #1A2410;
+    height: 100%;
+}
+
+.nav-top ul {
+    color: #CBD5E1;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav-bottom ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+   
+}
