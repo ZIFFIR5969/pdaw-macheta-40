@@ -40,9 +40,11 @@ body {
     text-decoration: none;
     color: #475569;
 }
-.left-nav{
-     font-size: 30px;
+
+.left-nav {
+    font-size: 30px;
 }
+
 .right-nav {
     gap: 30px;
 }
@@ -67,7 +69,7 @@ span.nav-title {
 .hero {
     background-color: #EEF5DF;
     display: flex;
-    padding: 30px 35px;
+    padding: 40px 45px;
     align-items: center;
     justify-content: space-between;
     gap: 50px;
@@ -76,16 +78,19 @@ span.nav-title {
 
 .hero1 {
     border: 1px solid white;
-    display: inline-flex;
+    display: inline;
     background-color: white;
     border-radius: 50px;
     color: #4D7C0F;
     padding: 5px 10px;
 
 }
- .hero h1{
+
+.hero h1 {
     font-size: 45px;
- }
+
+}
+
 .hero h3 {
     color: #475569;
     font-size: 15px;
@@ -113,7 +118,6 @@ span.nav-title {
     border-radius: 50px;
     background-color: #4D7C0F;
     color: white;
-
     padding: 10px 10px;
     justify-content: center;
     display: flex;
@@ -143,41 +147,186 @@ span.nav-title {
 
 
 }
- .stats h2{
+
+.stats h2 {
     font-size: 30px;
     margin: 0;
     color: #172113;
     font-family: "Quicksand", sans-serif;
- }
+}
 
- .stats p {
-    
+.stats p {
     margin: 0;
 }
+
 .hero-image {
     position: relative;
     display: flex;
     width: 43%;
 
+
 }
 
 .ceainic {
     position: absolute;
-    top: 20em;
-    
+    left: -30px;
+    bottom: 40px;
     border: 1px solid white;
     background-color: white;
-    border-radius: 50px;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    width: 180px;
+    padding: 5px;
+
 }
-.ceanic1{
-    width: 20px;
-    
-    flex-shrink: 0
-    height: 1em;
+
+.ceanic1 {
+    width: 40px;
+    height: 40px;
     background-color: #EEF5DF;
     border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setcad {
+    position: absolute;
+    right: -30px;
+    top: 50px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    padding: 5px;
+
+}
+
+.setcad1 {
+    width: 40px;
+    height: 40px;
+    background-color: #EEF5DF;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span-img {
+    color: #64748B;
+}
+
+.advantages{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 40px 30px;
+} 
+ 
+#span-adv{
+    color: #4D7C0F;
+    font-size: 15px;
+    display: flex;
+   
+
+}
+
+#adv-text {
+   color:#64748B;
+}
+
+.btn-advantages{
+    margin-top: 20px;
+    display: inline-flex;
+    border: 1px solid #4D7C0F;
+    border-radius: 50px;
+    background-color: #4D7C0F;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+ .left-advantages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+ }
+
+ .left-advantages h2{
+    font-size: 36px;
+    line-height: 1.2;
+  
+
+ }
+.right-advantages {
+    display: grid;
+    grid-template-columns:repeat(2, minmax(0,1fr)) ;
+    gap: 20px;
+    width: 60%;
+ 
+    
+}
+.adv-card{
+border: 1px solid #E2E8F0;
+border-radius: 20px;
+padding: 25px;
+position: relative;
+
+}
+.adv-E {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #EEF5DF;
+    border-radius: 10px;
+    background-color: #EEF5DF;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#adv-text{
+    line-height: 1.5;
+}
+
+.right-advantages p {
+    color: #64748B;
+}
+
+.cart {
+    position: absolute;
+    top: -27px;
+    right: -25px;
+    width: 65px;
+    height: 65px;
+    background-color: #B45309;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+.cartT {
+    position: absolute;
+    top: -7px;
+    right: -2px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #EF4444;
+    color: white;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    
 }
